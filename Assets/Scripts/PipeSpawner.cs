@@ -5,7 +5,7 @@ using UnityEngine;
 public class PipeSpawner : MonoBehaviour
 {
     [SerializeField] private GameObject pipe;
-    public float spawnRate = 2;
+    public float spawnRate = 2.2f;
     private float timer = 0;
     public float heightOffset = 10;
 
